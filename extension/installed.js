@@ -1,5 +1,5 @@
 // Replace with your actual installer download URL once you have a website
-const INSTALLER_URL = "https://claude-limit-usage-widget.vercel.app/#download";
+const INSTALLER_URL = "https://github.com/its-abhishek-agarwal/claude-usage-widget/releases/latest/download/ClaudeTracker.exe";
 
 async function check() {
   const statusEl  = document.getElementById("status");

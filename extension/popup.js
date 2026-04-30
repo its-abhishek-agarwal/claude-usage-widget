@@ -55,7 +55,7 @@ document.getElementById("downloadBtn").addEventListener("click", function() {
 });
 
 document.getElementById("donateBtn").addEventListener("click", function() {
-  chrome.tabs.create({ url: "https://ko-fi.com/TODO" });
+  chrome.tabs.create({ url: "https://ko-fi.com/hiabhishek" });
 });
 
 load();

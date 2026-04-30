@@ -1,5 +1,5 @@
 // Replace with your actual installer download URL once you have a website
-const INSTALLER_URL = "https://your-website.com/download/claude-tracker-setup.bat";
+const INSTALLER_URL = "https://claude-limit-usage-widget.vercel.app/#download";
 
 async function check() {
   const statusEl  = document.getElementById("status");

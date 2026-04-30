@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Claude Usage Tracker",
+  "version": "1.0",
+  "description": "Sends Claude.ai session cookies to the desktop widget so it can show real-time usage.",
+  "permissions": [
+    "cookies",
+    "alarms",
+    "nativeMessaging",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "https://claude.ai/*",
+    "http://127.0.0.1:9871/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Claude Usage Tracker"
+  },
+  "icons": {
+    "16":  "icon16.png",
+    "48":  "icon48.png",
+    "128": "icon128.png"
+  },
+  "web_accessible_resources": [{
+    "resources": ["installed.html", "installed.css", "installed.js"],
+    "matches": ["<all_urls>"]
+  }]
+}

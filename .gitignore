@@ -1,0 +1,21 @@
+# PyInstaller artifacts
+build/
+dist/
+
+# Generated native messaging host config (contains machine-specific paths)
+com.claude.tracker.json
+
+# Runtime logs
+install.log
+*.log
+
+# Runtime state (machine-specific)
+.deps_installed
+.extension_id
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local icon source (user-supplied, not redistributed)
+claude_logo_source.png

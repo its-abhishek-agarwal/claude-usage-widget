@@ -54,8 +54,12 @@ document.getElementById("downloadBtn").addEventListener("click", function() {
   chrome.tabs.create({ url: "https://claude-limit-usage-widget.vercel.app/#download" });
 });
 
-document.getElementById("donateBtn").addEventListener("click", function() {
+document.getElementById("kofiBtn").addEventListener("click", function() {
   chrome.tabs.create({ url: "https://ko-fi.com/hiabhishek" });
+});
+
+document.getElementById("razorpayBtn").addEventListener("click", function() {
+  chrome.tabs.create({ url: "https://rzp.io/rzp/dGxc8X1" });
 });
 
 load();

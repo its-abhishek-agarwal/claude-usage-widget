@@ -51,7 +51,7 @@ document.getElementById("syncBtn").addEventListener("click", async () => {
 });
 
 document.getElementById("downloadBtn").addEventListener("click", function() {
-  chrome.tabs.create({ url: "https://claude-limit-usage-widget.vercel.app/#download" });
+  chrome.tabs.create({ url: "https://claude-usage-limit-tracker.vercel.app/#download" });
 });
 
 document.getElementById("kofiBtn").addEventListener("click", function() {

@@ -12,8 +12,8 @@ A floating Windows desktop widget that shows your Claude.ai usage limits in real
 
 ## Installation
 
-1. **Install the Chrome extension** — [Chrome Web Store](https://chromewebstore.google.com/TODO)
-2. **Download and run `ClaudeTracker.exe`** — [Download](https://claude-limit-usage-widget.vercel.app/#download)
+1. **Install the Chrome extension** — [Chrome Web Store](https://chromewebstore.google.com/detail/claude-usage-tracker/afmgmecdicfghaeoadoklpddoocpeenj)
+2. **Download and run `ClaudeTracker.exe`** — [Download](https://claude-usage-limit-tracker.vercel.app/#download)
    - Windows may show a SmartScreen warning → click **More info** → **Run anyway**
    - The app installs to `C:\Program Files\ClaudeTracker\` and appears in Start Menu search
 
